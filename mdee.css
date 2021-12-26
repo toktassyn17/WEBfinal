@@ -1,0 +1,110 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.inf-1{
+    width: 15%; 
+    font-size: 50px; 
+    font-weight: bold; 
+    color: blanchedalmond;
+}
+.header-text{
+    text-decoration: none; 
+    color: black;
+}
+body{
+    max-width: 100%;
+    font-family: 'Prompt', sans-serif;
+    /* display: block; */
+    /* font-family: 'Montserrat Alternates', sans-serif; */
+}
+.main{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin-right: 5%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.song{
+    padding-left: 20px;
+    padding-right: 20px;
+    /* font-weight: bold;  */
+    color: blanchedalmond;
+}
+.songs{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    /* padding: 20px 70px; */
+}
+footer{
+    padding-top: 10px;
+    background: rgba(0,0,0,0.25);
+    color: #fff;
+    text-align: center;
+    height: 100px;
+}
+
+.social-links{
+
+    display: flex;
+
+    justify-content: center;
+
+    margin-bottom: 1.4rem;
+
+}
+
+.social-links a{
+
+    border: 2px solid #fff;
+
+    color: #fff;
+
+    display: block;
+
+    width: 40px;
+
+    height: 40px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    border-radius: 50%;
+
+    text-decoration: none;
+
+    margin: 0 0.3rem;
+
+}
+
+.social-links a:hover{
+
+    background: #fff;
+
+}
+@media (max-width: 500px) {
+    .dvd{
+        width: 100%;
+        margin: 0;
+    }
+    .songs{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .inf-1{
+        font-size: 20px;
+    }
+    header{
+        font-size: 10px;
+    }
+    .header-text{
+        font-size: 8px;
+    }
+    
+}
